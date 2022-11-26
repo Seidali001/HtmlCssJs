@@ -107,6 +107,10 @@ li {
 	background: linear-gradient(#dd8833ae, #70c4edac);
 }
 
+p {
+	color: white;
+}
+
 #islam-click {
 	color: white;
 }
