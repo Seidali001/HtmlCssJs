@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Lobster&family=Potta+One&family=Rubik+Distressed&family=Rubik+Glitch&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background: black;
+	text-align: center;
+	position: fixed;  
+  top: 0;  
+  z-index: 100;  
+  width: 100%;  
+}
+
+ul {
+	list-style: none;
+	padding: 15px;
+	display: flex;
+	justify-content: space-evenly; 
+	align-items: center;
+}
+
+li {
+	display: inline;
+}
+
+.header-info {
+	color: white;
+	font-family: 'Lobster', cursive;
+  font-family: 'Rubik Distressed', cursive;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+.header-info:hover {
+	color: rgba(255, 230, 6, 0.951);
+	text-decoration: none;
+}
+
+.gain-center{
+  transition: 1s; 
+  text-align: center; 
+}
+.gain-center:hover {
+  transform: scale(1.2); 
+}
+
+.parallax-1 {
+	background: url(html.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.parallax-2 {
+	background: url(css.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.parallax-3 {
+	background: url(javascript.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.content-1 {
+	text-align: center;
+	padding: 80px;
+}
+
+.content-2 {
+	text-align: center;
+	padding: 80px;
+}
+
+.content-3 {
+	text-align: center;
+	padding: 80px;
+}
+.content-1 p, .content-2 p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: 800px;
+	display: inline-block;
+}
+
+.parallax-text1 {
+	background: linear-gradient(#f2630aef, #159ee2cc);
+}
+
+.parallax-text2 {
+	background: linear-gradient(#0d95d8cc, #e4bf03dd);
+}
+.parallax-text3 {
+	background: linear-gradient(#dd8833ae, #70c4edac);
+}
+
+#islam-click {
+	color: white;
+}
+
