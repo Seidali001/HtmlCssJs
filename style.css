@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Distressed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chango&family=Lobster&family=Potta+One&family=Rubik+Distressed&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@500&family=Dancing+Script&family=Pacifico&display=swap');
 
 *{
 	margin: 0;
@@ -109,6 +110,10 @@ li {
 
 p {
 	color: white;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Caveat', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Pacifico', cursive;
 }
 
 
