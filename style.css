@@ -90,11 +90,6 @@ li {
 	text-align: center;
 	padding: 80px;
 }
-.content-1 p, .content-2 p {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	width: 800px;
-	display: inline-block;
-}
 
 .parallax-text1 {
 	background: linear-gradient(#f2630aef, #159ee2cc);
@@ -104,10 +99,11 @@ li {
 	background: linear-gradient(#0d95d8cc, #e4bf03dd);
 }
 .parallax-text3 {
-	background: linear-gradient(#dd8833ae, #70c4edac);
+	background: linear-gradient(#e4bf03dd, #70c4edac);
 }
 
-#islam-click {
+.only-text-color p {
 	color: white;
+	font-size: 25px;
 }
 
