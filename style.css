@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Distressed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chango&family=Lobster&family=Potta+One&family=Rubik+Distressed&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@500&family=Dancing+Script&family=Pacifico&display=swap');
 
 *{
 	margin: 0;
@@ -31,7 +32,7 @@ li {
 .header-info {
 	color: white;
 	font-family: 'Lobster', cursive;
-  font-family: 'Rubik Distressed', cursive;
+    font-family: 'Rubik Distressed', cursive;
 	font-size: 40px;
 	text-decoration: none;
 }
@@ -90,6 +91,11 @@ li {
 	text-align: center;
 	padding: 80px;
 }
+.content-1 p, .content-2 p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: 800px;
+	display: inline-block;
+}
 
 .parallax-text1 {
 	background: linear-gradient(#f2630aef, #159ee2cc);
@@ -99,11 +105,14 @@ li {
 	background: linear-gradient(#0d95d8cc, #e4bf03dd);
 }
 .parallax-text3 {
-	background: linear-gradient(#e4bf03dd, #70c4edac);
+	background: linear-gradient(#dd8833ae, #70c4edac);
 }
 
-.only-text-color p {
+.text-for-p {
 	color: white;
-	font-size: 25px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Caveat', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Pacifico', cursive;
 }
 
