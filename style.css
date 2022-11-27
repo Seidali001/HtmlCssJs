@@ -29,8 +29,31 @@ li {
 	display: inline;
 }
 
+#text-color1 {
+	color: #ffffff;
+}
+
+#text-color2 {
+	color: #ffffff;
+}
+
+#text-color3 {
+	color: rgb(255, 255, 255);
+}
+
+#text-color1:hover {
+	color: rgb(241, 146, 68);
+}
+
+#text-color2:hover {
+	color: rgb(110, 149, 231);
+}
+
+#text-color3:hover {
+	color: rgba(255, 230, 6, 0.951);
+}
+
 .header-info {
-	color: white;
 	font-family: 'Lobster', cursive;
     font-family: 'Rubik Distressed', cursive;
 	font-size: 40px;
@@ -38,7 +61,6 @@ li {
 }
 
 .header-info:hover {
-	color: rgba(255, 230, 6, 0.951);
 	text-decoration: none;
 }
 
